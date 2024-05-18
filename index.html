@@ -16,7 +16,7 @@
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/3 logo.png" type="image/svg+xml">
+  <link rel="shortcut icon" href="./assets/images/2logo.png" type="image/svg+xml">
 
   <!-- 
     - google font link
@@ -30,13 +30,12 @@
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/faq.css">
 
   <!-- 
     - preload images
   -->
   <!-- <link rel="preload" as="image" href="./assets/images/hero-banner.png"> -->
-  <!-- <link rel="preload" as="image" href="./assets/images/heroimg.png"> -->
+  <link rel="preload" as="image" href="./assets/images/herohome.jpg">
 
 </head>
 
@@ -162,16 +161,16 @@
         - #HERO
       -->
 
-      <section class="section hero" style="background-image: url('./assets/images/herofaq.png')">
+      <section class="section hero" style="background-image: url('./assets/images/hero-home.png')" aria-label="home">
         <div class="container">
 
           <div class="hero-content">
 
-            <p class="hero-subtitle has-before" data-reveal="left">Frequently Asked Questins</p>
+            <p class="hero-subtitle has-before" data-reveal="left">Welcome To Orthotic and Podiatry Solutions</p>
 
             <h1 class="headline-lg hero-title" data-reveal="left">
-                Foot care, <br>
-                Redefined.
+              We Care <br>
+             For Your Foot.
             </h1>
 
               <div class="wrapper"></div>
@@ -202,110 +201,309 @@
         <div style="text-align: center;">
             <br>
             <p class="section-subtitle title-lg text-center" id="blog-label" data-reveal="bottom">
-          Frequently Asked Questins</p>
-            <h2 class="section-title headline-md text-center" data-reveal="bottom">Have Any Doubts?</h2>
+          Services</p>
+            <h2 class="section-title headline-md text-center" data-reveal="bottom">Why Choose Us?</h2>
+            <!-- <h1 class="Services" data-reveal="up">Our Services</h1> -->
+        </div>
+      <div class= "spacing" >
+        <br>
+      </div>
+        
+
+        <div class="container">
+            
+          <ul class="service-list">
+           
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="#">3D-Foot Scan</a>
+                  <br>
+                </h3>
+
+                <p class="card-text">
+                    Discovering your foot's story through 3D-foot scan means we get to understand how you move and what your feet need.
+                </p>
+
+                <button class="btn-circle" aria-label="read more about 3d diagnosis" onclick="window.location.href='services.html'">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+                
+                
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="#">Plantar Pressure Assessment</a>
+                </h3>
+
+                <p class="card-text">
+                  Plantar pressure assessment discovers your feet's unique pressure patterns to design customized orthotics for support.
+                </p>
+
+                <button class="btn-circle" aria-label="read more about Orthotics" onclick="window.location.href='services.html'">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-3.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="#">CAD Modeling of Orthatics</a>
+                </h3>
+
+                <p class="card-text">
+                    Discovering your custom orthotics CAD design captures your foot's ideal shape and requirements for a tailored perfect fit.
+                </p>
+                
+                <button class="btn-circle" aria-label="read more about CAD Orthotics" onclick="window.location.href='services.html'">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-4.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="#">Custom Orthotics</a>
+                </h3>
+                <br>
+                <p class="card-text">
+                  Discovering your custom orthotics story through foot diagnosis captures your unique foot traits for precise support.
+                </p>
+
+                <button class="btn-circle" aria-label="read more about Orthopedics" onclick="window.location.href='services.html'">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
       </section>
 
 
-        <section class="section listing" aria-labelledby="listing-label">
-            <div class="container">
-    
-                <div class='faq'>
-                    <input id='faq-a' type='checkbox'>
-                  <label for='faq-a'>
-                      <p class="faq-heading">1. What are orthotic insoles?</p>
-                     
-                      <p class="faq-text">A. Orthotic insoles are specifically prescribed by a doctor to address particular structural and biomechanical issues of the foot.</p>
-                  </label>
-                  <input id='faq-b' type='checkbox'>
-                  <label for='faq-b'>
-                      <p class="faq-heading">2. How do I know I need orthotic insoles?</p>
-                    
-                      <p class="faq-text">A. There are a wide range of foot problems like heel pain due to calcaneal spurs, plantar fasciitis, flat foot, diabetic neuropathy & diabetic foot deformities. These problems require custom made orthotics to support the foot & relieve pain.</p>
-                  </label>
-                  <input id='faq-c' type='checkbox'>
-                  <label for='faq-c'>
-                      <p class="faq-heading">3. Do I need to wear them all day?</p>
-                      
-                      <p class="faq-text">A. It is advisable to wear for most part of the day when activities are high.</p>
-                  </label>
-                  <input id='faq-d' type='checkbox'>
-                  <label for='faq-d'>
-                      <p class="faq-heading">4. How does an orthotic insole help?</p>
-                   
-                      <p class="faq-text">A. It relieves foot pain, provides support, prevents or halts the progress of foot deformity, offloading to relieve pressure over certain areas of foot, improves balance & gait, relieves stress on the ankle, knee, hip joints & spine.</p>
-                  </label>
-                  <input id='faq-e' type='checkbox'>
-                  <label for='faq-e'>
-                      <p class="faq-heading">5. What is orthotics made of?</p>
-                    
-                      <p class="faq-text">A. Orthotics are made up of durable materials like EVA, polypropylene & many more with varying densities are available. The Orthotist chooses the density required to support the particular foot problem.</p>
-                  </label>
-                  <input id='faq-f' type='checkbox'>
-                  <label for='faq-f'>
-                      <p class="faq-heading">6. Can children be advised with orthotic insoles?</p>
-                     
-                      <p class="faq-text">A. Children above 7 years can wear.</p>
-                  </label>
-                  <input id='faq-g' type='checkbox'>
-                  <label for='faq-g'>
-                      <p class="faq-heading">7. How does an orthotic insole help in diabetic foot?</p>
-                    
-                      <p class="faq-text">A. In diabetic neuropathy, diabetic foot deformities, callosities, Orthotic insoles are custom made to offload high pressure areas by distributing the pressure. In diabetic foot ulcers, the area is completely offloaded by pressure mitigation & this helps healing of ulcers in early stages.</p>
-                  </label>
-                  <input id='faq-h' type='checkbox'>
-                  <label for='faq-h'>
-                      <p class="faq-heading">8. What is the need of 3D foot scan in customizing orthotic insoles?</p>
-                   
-                      <p class="faq-text">A. The 3D foot scan measures foot length & width with high accuracy. Foot arch type is detected too. Output of the 3D foot scan is saved in the software database for CAD modeling of orthotic insoles.</p>
-                  </label>
-                  <input id='faq-i' type='checkbox'>
-                  <label for='faq-i'>
-                      <p class="faq-heading">9. What is pressure scan of foot?</p>
-                    
-                      <p class="faq-text">A. Foot pressure scan is best for analyzing foot structure & evaluating abnormalities. Gait & balance can be assessed too. The pressure exerted on weight bearing areas of sole are recorded with measurement.</p>
-                  </label>
-                  <input id='faq-j' type='checkbox'>
-                  <label for='faq-j'>
-                      <p class="faq-heading">10. How do 3D foot scan & pressure scan help in customizing orthotic insole?</p>
-                   
-                      <p class="faq-text">A. The 3D model of foot with volumetric measurements & arch type & pressure measurement help in designing the orthotic insoles with accurate supports & pressure mitigation to offload high pressure areas on the sole.</p>
-                  </label>
-                  <input id='faq-k' type='checkbox'>
-                  <label for='faq-k'>
-                      <p class="faq-heading">11. How long does it take to adjust to the orthotic insoles?</p>
-                  
-                      <p class="faq-text">A. It takes about 2-3 weeks to feel comfortable using the orthotics day long.</p>
-                  </label>
-                  <input id='faq-l' type='checkbox'>
-                  <label for='faq-l'>
-                      <p class="faq-heading">12. What is the success rate of orthotics?</p>
-                    
-                      <p class="faq-text">A. Studies show that they are highly effective with 85-90% success rate depending on the foot problem.</p>
-                  </label>
-                  <input id='faq-m' type='checkbox'>
-                  <label for='faq-m'>
-                      <p class="faq-heading">13. Are orthotic insoles put on top of regular insoles?</p>
-                     
-                      <p class="faq-text">A. No, orthotic insoles should not be placed on regular insoles.</p>
-                  </label>
-                  <input id='faq-n' type='checkbox'>
-                  <label for='faq-n'>
-                      <p class="faq-heading">14. Can custom orthotics fit in any shoe?</p>
-                     
-                      <p class="faq-text">A. Custom orthotics is to be fitted in shoes with adequate depth.</p>
-                  </label>
-                  <input id='faq-o' type='checkbox'>
-                  <label for='faq-o'>
-                      <p class="faq-heading">15. Can I put orthotics in slippers?</p>
-                     
-                      <p class="faq-text">A. Custom orthotics can be glued to sandals & slippers.</p>
-                  </label>
-              </div>
-              
-    
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-labelledby="about-label">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="section-subtitle title-lg has-after" id="about-label" data-reveal="left">About Us</p>
+
+            <h2 class="headline-md" data-reveal="left">What Is Orthotic and Podiatry Solutions ? </h2>
+
+            <p class="section-text" data-reveal="left">
+              Orthotic and Podiatry Solutions: Your destination for specialized foot care. Led by Dr. Veena P. Waiker, we offer personalized solutions for Orthopedic, sports-related, and diabetic foot conditions. Using advanced technology, we provide custom Orthotic insoles and diabetic foot care services to restore mobility and prevent complications.</p>
+
+            <ul class="tab-list" data-reveal="left">
+
+              <li>
+                <button class="tab-btn active">Mission</button>
+              </li>
+
+
+            </ul>
+
+            <p class="tab-text" data-reveal="left">
+              Our mission is to empower individuals with foot problems to step forward with confidence, by providing exceptional orthotic care that prioritizes personalized attention, evidence based practices and a commitment to improving overall foot health and wellbeing.
+            </p>
+
+            <div class="wrapper">
+
+              <ul class="about-list">
+
+                <li class="about-item" data-reveal="left">
+                  <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                  <span class="span">Personalized orthotics with 3D foot scanning technology.</span>
+                </li>
+
+                <li class="about-item" data-reveal="left">
+                  <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                  <span class="span">Comprehensive foot care for all ages and conditions.</span>
+                </li>
+
+                <li class="about-item" data-reveal="left">
+                  <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                  <span class="span">Affordable deluxe and premium orthotic insole and footwear options.</span>
+                </li>
+
+                <li class="about-item" data-reveal="left">
+                  <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                  <span class="span">Experienced interdisciplinary team of specialists.</span>
+                </li>
+
+              </ul>
+
             </div>
-          </section>
+
+          </div>
+
+          <figure class="about-banner" data-reveal="right">
+            <img src="./assets/images/aboutus-about-leftbanner.png" width="554" height="678" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #LISTING
+      -->
+
+      <section class="section listing" aria-labelledby="listing-label">
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li>
+              <p class="section-subtitle title-lg" id="listing-label" data-reveal="left">Our Team</p>
+
+              <h2 class="headline-md" data-reveal="left">Meet Our Team Of Experienced Professionals  </h2>
+            </li>
+<br>
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <!-- <div class="card-icon">
+                  <img src="./assets/images/icon-1.png" width="71" height="71" loading="lazy" alt="icon">
+                </div> -->
+
+                <div>
+                  <h3 class="headline-sm card-title">Dr. Veena P. Waiker</h3>
+
+                  <p class="card-text">Consltant Plastic Surgeon</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <!-- <div class="card-icon">
+                  <img src="./assets/images/icon-2.png" width="71" height="71" loading="lazy" alt="icon">
+                </div> -->
+
+                <div>
+                  <h3 class="headline-sm card-title">Mehala Devi</h3>
+
+                  <p class="card-text">Orthotist</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <!-- <div class="card-icon">
+                  <img src="./assets/images/icon-4.png" width="71" height="71" loading="lazy" alt="icon">
+                </div> -->
+
+                <div>
+                  <h3 class="headline-sm card-title">Anusha</h3>
+
+                  <p class="card-text">Nurse</p>
+                </div>
+
+              </div>
+            </li>
+
+            <!-- <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-5.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Orthopedics</h3>
+
+                  <p class="card-text">Convallis vulputate</p>
+                </div>
+
+              </div>
+            </li> -->
+
+            <!-- <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-6.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Pediatrics</h3>
+
+                  <p class="card-text">Posuere maecenas</p>
+                </div>
+
+              </div>
+            </li> -->
+
+            <!-- <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-7.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Osteology</h3>
+
+                  <p class="card-text">Nisi nullam</p>
+                </div>
+
+              </div>
+            </li> -->
+
+          </ul>
+
+        </div>
+      </section>
 
 
 
@@ -322,7 +520,7 @@
            Contact Us
           </p>
 
-          <h2 class="section-title headline-md text-center" data-reveal="bottom">Get In Touch With US</h2>
+          <h2 class="section-title headline-md text-center" data-reveal="bottom">Get In Touch With Us</h2>
 
           <ul class="grid-list">
 
@@ -407,6 +605,8 @@
                 <p class="card-text">Monday - Saturday, 10:00 AM - 1:00 PM</p>
                   <br>
                 </p>
+
+
                 <!-- <a href="#" class="btn-text title-lg">Read More</a> -->
 
               </div>
@@ -419,7 +619,6 @@
 
     </article>
   </main>
-
 
 
 
@@ -499,7 +698,7 @@
             <p class="headline-sm footer-list-title">Services</p>
           </li>
 
-         
+          
 
           <li>
             <a href="https://drive.google.com/file/d/1kG3keOf-3hl1JwMiKJufY2yabK1JiF4M/view?usp=sharing" class="text footer-link" target="_blank" rel="noopener noreferrer">Disclaimer</a>
@@ -509,7 +708,6 @@
             <a href="https://drive.google.com/file/d/1kG3keOf-3hl1JwMiKJufY2yabK1JiF4M/view?usp=sharing" class="text footer-link" target="_blank" rel="noopener noreferrer">Refund Policy</a>
           </li>
           
- 
           <li>
             <a href="contactus.html" class="text footer-link">Contact Us</a>
           </li>
